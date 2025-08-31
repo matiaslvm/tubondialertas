@@ -1,0 +1,66 @@
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Variables de entorno (CRÍTICO - contiene tokens secretos)
+.env
+.env.local
+.env.production
+.env.staging
+
+# Logs
+logs/
+*.log
+loglevel-silent
+
+# Archivos temporales
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de sistema
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# Archivos de Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Archivos de desarrollo temporal
+test-*.js
+debug-*.js
+temp-*.js
+*.backup
+*.bak
+
+# Archivos específicos del proyecto
+/scripts/temp/
+/logs/
+/backup/
+
+# Archivos de ngrok
+ngrok
+ngrok.exe
+*.ngrok.io
+
+# Base de datos local (si existiera)
+*.sqlite
+*.sqlite3
+*.db
